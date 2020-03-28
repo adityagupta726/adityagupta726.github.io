@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+   <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/b06605e970.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class=" col logo">
+                    <a href="#">
+                            <img src="./assets/images/style.png" height=80px width=130px; alt="">
+                    </a>
+                   
+               </div>
+
+               <nav  id="main-nav">
+                   <button class="menu-btn">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                   </button>
+                   <ul>
+                    
+                       <li><a class="menu-link" href="#banner">Home</a></li>
+                       <li><a class="menu-link" href="#welcome">About Us</a></li>
+                       <li><a class="menu-link" href="#services">Services</a></li>
+                       <li><a class="menu-link" href="#models">Models</a></li>
+                       <li><a class="menu-link" href="#blogs">Blog Posts</a></li>
+                       <li><a class="menu-link" href="#footer">Contact</a></li>
+
+                   </ul>
+
+
+               </nav>
+            </div>
+
+        </div>
+    </header>
+    <div id="banner">
+            <div id="bannerContent">
+                   <div id="content">
+                            <h5> your new
+                                <span>
+                                    fashion
+                                </span>
+                                starts here
+                            </h5>
+                        </div>
+                    </div>       
+
+                </div>
+    <div id="content">
+        <div class="container">
+            <section id="welcome">
+                <h2 id="welcomeHeading">Welcome To Fashion</h2>
+                <p id="welcomeText">To be honest, the very word “fashion” attracts everyone. To put it in simple words, it is basically the style of wearing clothes, accessories and ornaments according to the ruling trends or one's own individual preferences. Fashion, in essence, is the art of transforming a simple attire into one that of elegance.</p>
+             <div class="stats">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-sm-3 stats-grid icon1 ">
+                                <i class="fas fa-tv" ></i>
+                                <div class="numscroller counter">165</div>
+                                <p class="stats-info">Fashion Shows</p>
+                         </div>
+                         <div class="col-sm-3 stats-grid icon2 ">
+                                <i class="fas fa-chess-queen"></i>
+                                <div class="numscroller counter " >210</div>
+                                <p class="stats-info">Models</p>
+                         </div>
+                         <div class="col-sm-3 stats-grid icon3" >
+                                <i class="fa fa-camera"></i>
+                                <div class="numscroller counter" >205</div>
+                                <p class="stats-info">Personal Events</p>
+                        </div>
+                         <div class=" col-sm-3 stats-grid icon4" >
+                                <i class="fas fa-calendar-alt" ></i>
+                                <div class="numscroller counter">25</div>
+                                <p class="stats-info">Years Experience</p>
+                         </div>
+                     </div>
+
+                 </div>
+
+             </div>
+             <div class="fashionWorld">
+                 <div class="container ">
+                     <div class="row">
+                     <div class=" col-sm-6 ">
+                         <img id="fashionImage" src="./assets/images/b7.jpg" height=390px; width=550px; alt="">
+                     </div>
+                      <div class="col-sm-6">
+                      <h2 class="fashionText"> Fashion Trend</h2>
+                      <p class="fashionPara">Fashion trends are influenced by several factors including cinema, celebrities, economical, social and technological. Fashion trends change daily, it can not stay unchanged. Technological influences are growing more apparent in the fashion industry. Advances and new developments are shaping future trends.<br><br>
+                     People have also become more conscious of the impact their everyday consumption has on the environment and society, yet critics argue a circular economy based on growth is an oxymoron, rather than a utopian cradle-to-cradle circular solution.
+                     </p>
+
+                          <button id="Button_1">Read More</button>
+                        </div>
+                    </div>
+                 </div>
+
+             </div>
+            </section>
+            <script src="jquery.counterup.min.js"></script>
+            <script src="jquery.waypoints.min.js"></script>
+            <script>
+                jQuery(document).ready(function(){
+                    $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+                });
+            </script>
+
+</div>
+        <section>
+                <div id="magazine">
+                    <div class="container">
+                       
+                  <h2 class="magazineText2">Fashion magazine</h2>
+                  <p id="magazinePara">Modeling Is Not Something You Excel Because You Are Clever But Is Based On Physical Appearance
+                        </p>
+                        <p id="magazinePara2">
+                           fashion 
+                        </p>
+                        <a href=""><i class="far fa-play-circle"></i></a>
+                        
+                        <h2 class="magazineText3">watch video </h2>
+                    </div>
+                   
+            
+                </div>
+                <!-- <div class="container" id="magazineText1"><h2 >Fashion</h2></div> -->
+            </section>
+            <section id="services" class="services">
+                <div class="icon text-center">
+                    <span>
+                      
+                        <i class="fas fa-chess-queen"></i>
+                    
+                    </span>
+                </div>
+                <h3 id="fashionEvent">Fashion events</h3>
+                <div class="container">
+                    <div class="row service-grids">
+                        <div class=" col-lg-4 service-grid1">
+                          <h4>fashion<span class="fshows">shows</span>
+                          </h4>
+                          <p>
+                                A fashion show is an event put on by a fashion designer to showcase their upcoming line of clothing during Fashion Week. 
+                          <h4>catwalk<span class="fshows">shows</span>
+                          </h4>
+                          <p>
+                                 catwalk or ramp, is a narrow, usually flat platform that runs into an auditorium ,used by models to demonstrate clothing
+                          </p>
+                        
+                        </div>
+                        <div class=" col-lg-4 service-grid1">
+                        
+                        <div class="centerImage">
+                            <img src="assets/images/b8.jpg" height="330px" width="330px"alt="">
+                        </div></div>
+                        <div class="col-lg-4 service-grid1">
+                                <h4>Models<span class="fshows">shows</span>
+                                </h4>
+                                <p>Types of modelling include: fashion, glamour, , fine art,and commercial print models. Models are featured in a variety of media formats 
+                                <h4>Rampwalk<span class="fshows">shows</span>
+                                </h4>
+                                <p>
+                                        With the creation of runway shows, runway modeling took off with the establishment of agencies and professional modeling careers                                </p>
+                              
+                              </div>
+            
+
+                        
+
+                    </div>
+
+                </div>
+            </section>
+            <section id="blogs">
+                
+                    <div class="icon text-center">
+                            <span>
+                              
+                                <i class="fas fa-chess-queen"></i>
+                            
+                            </span>
+                        </div>
+                        <h3 id="blog">Blog Posts</h3>
+                       
+                     
+                       
+                     <div class="row service-grids">
+                         <div class="col-lg-4 service-grid2"> 
+                                <div class="black"><h4>Fashion Magazine</h4>
+                                    <h3>Style Is A Way To Say Who You Are Without Having To Speak</h3>
+                           <h5>August 12,2019</h5>
+                                    <a href="">Read More</a></div></div> 
+                   
+                             <div class="col-lg-4 service-grid2 grey"> 
+                                <h4>Fashion Magazine</h4>
+                                    <h3>Style Is A Way To Say Who You Are Without Having To Speak</h3>
+                             <h5>August 12,2019</h5>
+                                  <a href="">Read More</a></div>
+                       <div class="col-lg-4 service-grid2"> 
+                                    <div class="black"><h4>Fashion Magazine</h4>
+                                        <h3>Style Is A Way To Say Who You Are Without Having To Speak</h3>
+                             <h5>August 12,2019</h5>
+                                    <a href="">Read More</a></div></div> 
+    </div>
+            
+            </section>
+            <section id="models">
+                
+                    <div class="icon text-center">
+                            <span>
+                              
+                                <i class="fas fa-chess-queen"></i>
+                            
+                            </span>
+                        </div>
+                        <h3 id="model">Our Top Models</h3>
+                        <div class="container">
+                            <div class="row model-grid">
+                      <div class="col-md-3 model">
+                      <img src="assets/images/b2.jpg" alt="">
+                      <h4>Emma Liden</h4>
+                      <p class="font-italic">Italy</p>
+                     
+                      </div>
+                      <div class="col-md-3 model">
+                      <img src="assets/images/b3.jpg" alt="">
+                      <h4>Phoebey Buffay</h4>
+                      <p class="font-italic">London</p>
+                     
+                        </div>
+                        <div class="col-md-3 model">
+                      <img src="assets/images/b4.jpg" alt="">
+                      <h4>Rachel Green</h4>
+                      <p class="font-italic">America</p>
+                            </div>
+                            <div class="col-md-3 model">
+                      <img src="assets/images/b1.jpg" alt="">
+                      <h4>Monica Geller</h4>
+                      <p class="font-italic">India</p>
+                     
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="footer">
+                        <div class="row container">
+                           <div class="col-md-3 footer">
+
+                               <div id="stylelogo" class="row">
+                             <img src="assets/images/style.png" height="150px" weight="150px" alt="">
+                             <p>Style is expressing yourself through what you wear. </p>
+                               </div>
+                               <div class="row medialink" >
+                                    <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                                <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-pinterest"></i>
+                                        </a>
+
+                               </div>
+                                 </div>
+                                 <div class="col-md-3 footer">
+                                     <div id="subscribe">
+                                         
+                                             <h3>Subscribe
+                                                    <i class="fas fa-envelope-open"></i>
+                                             </h3>
+                                         
+                                         <form action="#" method="posts">
+                                            <input type="text" name="text" placeholder="Name" required>
+                                            <input type="email" name="email" placeholder="Email" required>
+                                            <input type="submit"  value="Subscribe now" >
+                                         </form>
+
+                                     </div>
+                                    </div>
+                                    <div class="col-md-3 footer">
+                                        <div id="links">
+                                          <h3>Links
+                                                    <i class="fas fa-link"></i></div>
+                                            </h3>
+                                            
+                                                <ul>
+                                                        <li> <a href="#" class="scroll">Our Designs</a> </li>
+                                                        <li> <a href="#" class="scroll">Our Services</a> </li>
+                                                        <li> <a href="#" class="scroll">Testimonials</a> </li>
+                                                        <li> <a href="#" class="scroll">Our Models</a> </li>
+                                                        <li> <a href="#" class="scroll">contact</a> </li>
+                                                    </ul>
+                                        
+                                        </div>
+                                        <div class="col-md-3 footer">
+                                            <div id="contacts">
+                                            
+                                                <h3>Contacts
+                                                        <i class="fas fa-map-marker"></i>
+                                                </h3>
+                                               
+                                         
+                                             <ul>
+                                                    <li><strong>Address</strong> : 436 Fashion hall, Cross road,Cannaught place.</li>
+                                                    <li><strong>mobile</strong> : +01(24) 3212 4456</li>
+                                                    <li><strong>phone</strong> : +01(24) 1366 2145</li>
+                                                    <li><strong>Mail</strong> : <a href="#">Style@gmail.com</a></li>
+                                                </ul>
+                                            </div>
+                                            </div>
+                        </div>
+                    </section>
+        </div>
+    
+
+
+</body>
+</html>
